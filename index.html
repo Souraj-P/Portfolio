@@ -1,0 +1,173 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width">
+  <title>Souraj's Portfolio</title>
+  <link rel="icon" type="image/x-icon" href="images/favicon.ico">
+  <link href="style.css" rel="stylesheet" type="text/css" />
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet"
+    integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
+  <script src="https://kit.fontawesome.com/e723997f53.js" crossorigin="anonymous"></script>
+</head>
+
+<body>
+  <nav class="navbar navbar-expand-lg bg-body-tertiary sticky-top" data-bs-theme="dark">
+    <div class="container-fluid">
+      <a class="navbar-brand" href="#">Souraj's Portfolio</a>
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#dropdownOptions"
+        aria-controls="dropdownOptions" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="dropdownOptions">
+        <ul class="navbar-nav ms-auto mb-2 mb-lg-0">
+          <li class="nav-item">
+            <a class="nav-link active mx-2" aria-current="page" href="#education">Education</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link active mx-2" aria-current="page" href="#work-experience">Work Experience</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link active mx-2" aria-current="page" href="#skills">Skills</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link active mx-2" aria-current="page" href="#project">Project</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link active mx-2" aria-current="page" href="#contact-me">Contact me</a>
+          </li>
+        </ul>
+      </div>
+    </div>
+  </nav>
+  
+  <div class="d-flex justify-content-around mt-4 introduction mx-auto">
+    <img src="images/portrait.jpeg" class="mx-3 img-fluid img-thumbnail portrait" alt="Portrait of Souraj Poddar">
+    <div class="d-flex justify-content-around flex-column">
+      <p class="display-2 fw-bolder fst-italic">Souraj Poddar</p>
+      <p class="fs-4">I like programming and solving real life problems.</p>
+      <p class="fs-4">I am well versed in DSA with Java and have a knack for Networking.</p>
+    </div>
+  </div>
+
+  <section id="education">
+    <p class="display-3 mx-4 my-3 fw-bolder">Education</p>
+    <div class="accordion mx-5" id="accordionPanelEducation" data-bs-theme="dark">
+      <div class="accordion-item">
+        <h2 class="accordion-header">
+          <button class="accordion-button" type="button" data-bs-toggle="collapse" data-bs-target="#collapseOne"
+            aria-expanded="true" aria-controls="collapseOne">
+            Post Graduation
+          </button>
+        </h2>
+        <div id="collapseOne" class="accordion-collapse collapse show">
+          <div class="accordion-body">
+            <p><i class="fa-solid fa-graduation-cap"></i> M.Tech in CSIS</p>
+            <p>National Institute of Technology, Karnataka</p>
+            <p>2023-2025</p>
+          </div>
+        </div>
+      </div>
+      <div class="accordion-item">
+        <h2 class="accordion-header">
+          <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+            data-bs-target="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">
+            Graduation
+          </button>
+        </h2>
+        <div id="collapseTwo" class="accordion-collapse collapse">
+          <div class="accordion-body">
+            <p><i class="fa-solid fa-graduation-cap"></i> B.Tech in IT</p>
+            <p>Government College of Engineering and Leather Technology, Kolkata</p>
+            <p>2017-2021</p>
+          </div>
+        </div>
+      </div>
+      <div class="accordion-item">
+        <h2 class="accordion-header">
+          <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+            data-bs-target="#collapseThree" aria-expanded="false" aria-controls="collapseThree">
+            Intermediate
+          </button>
+        </h2>
+        <div id="collapseThree" class="accordion-collapse collapse">
+          <div class="accordion-body">
+            <p><i class="fa-solid fa-school"></i> ISC</p>
+            <p>Salt Lake School(English Medium)</p>
+            <p>2016-2017</p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section id="work-experience">
+    <p class="display-3 mx-4 my-3 fw-bolder">Work Experience</p>
+    <div class="card border-dark mb-3 mx-5 my-4" data-bs-theme="dark">
+      <div class="card-header">System Engineer</div>
+      <div class="card-body">
+        <h5 class="card-title"><i class="fa-solid fa-briefcase"></i> Infosys</h5>
+        <p class="card-text">2021-2022</p>
+        <p class="card-text">Worked on an e-commerce website as a full stack developer to add seller and product rating features.</p>
+      </div>
+    </div>
+  </section>
+
+  <section id="skills">
+    <p class="display-3 mx-4 my-3 fw-bolder">Skills</p>
+    <div class="d-flex flex-row flex-wrap mb-3 mx-5">
+      <button type="button" class="btn btn-secondary me-3 mb-2" data-bs-container="body" data-bs-toggle="popover"
+        data-bs-placement="top" data-bs-content="Java, C++, Python">
+        Object Oriented Programming
+      </button>
+      <button type="button" class="btn btn-secondary me-3 mb-2" data-bs-container="body" data-bs-toggle="popover"
+        data-bs-placement="top" data-bs-content="Python(using Pandas, Matplotlib, Numpy)">
+        Machine Learning
+      </button>
+      <button type="button" class="btn btn-secondary me-3 mb-2" data-bs-container="body" data-bs-toggle="popover"
+        data-bs-placement="top" data-bs-content="Java, C++">
+        Data Structures and Algorithms
+      </button>
+      <button type="button" class="btn btn-secondary me-3 mb-2" data-bs-container="body" data-bs-toggle="popover"
+        data-bs-placement="top" data-bs-content="MERN(MongoDB, Express, React, NodeJS) Stack">
+        Full Stack Web Development
+      </button>
+    </div>
+  </section>
+
+  <section id="project">
+    <p class="display-3 mx-4 my-3 fw-bolder">Project</p>
+    <div class="card border-dark mb-3 mx-5 my-4" data-bs-theme="dark">
+      <div class="card-header">Amnesiac Flooding with memory</div>
+      <div class="card-body">
+        <h5 class="card-title">Skills: <i class="fa-brands fa-python"></i> Python</h5>
+        <p class="card-text">Amnesiac flooding refers to the algorithm were every time a node in a network receives a
+          message, it forwards it to those neighbors from which it did not receive the message in the
+          current round. Watts Strogatz network model is a random graph generation model that
+          produces graphs with small world properties.</p>
+        <a class="card-text link-primary link-offset-2 link-underline-opacity-25 link-underline-opacity-100-hover"
+          href="https://github.com/Souraj-P/Amnesiac-Flooding" target=”_blank”><i class="fa-brands fa-github"></i> Github link</a>
+      </div>
+    </div>
+  </section>
+
+  <section id="contact-me">
+    <p class="display-3 mx-4 my-3 fw-bolder">Contact me</p>
+    <div class="d-flex flex-row flex-wrap mb-3 mx-5">
+      <a class="card-text link-hover link-primary link-offset-2 link-underline-opacity-25 link-underline-opacity-100-hover me-5 mb-2 display-6" target=”_blank”
+          href="mailto:souraj98@gmail.com"><i class="fa fa-envelope"></i> Mail</a>
+      <a class="card-text link-hover link-primary link-offset-2 link-underline-opacity-25 link-underline-opacity-100-hover me-5 mb-2 display-6" target=”_blank”
+          href="https://wa.me/8240936451?text=Hi%20Souraj"><i class="fa fa-whatsapp"></i> WhatsApp</a>
+      <a class="card-text link-hover link-primary link-offset-2 link-underline-opacity-25 link-underline-opacity-100-hover me-5 mb-2 display-6" target=”_blank”
+          href="https://www.linkedin.com/in/souraj-poddar-25b048280/"><i class="fa fa-linkedin"></i> LinkedIn</a>
+    </div>
+  </section>
+
+  <script type="module" src="script.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"
+    integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL"
+    crossorigin="anonymous"></script>
+</body>
+
+</html>
